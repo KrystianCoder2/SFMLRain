@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <random>
 #include <vector>
 #include <SFML/Graphics.hpp>
 
@@ -35,22 +34,22 @@ public:
         else if (z >= -12)
         {
             shape.setFillColor(sf::Color(112.f, 81.f, 185.f, 235.f));
-            shape.setSize(sf::Vector2f(2, 19));
+            shape.setSize(sf::Vector2f(3, 19));
         }
         else if (z >= -8)
         {
             shape.setFillColor(sf::Color(112.f, 85.f, 203.f, 245.f));
-            shape.setSize(sf::Vector2f(2, 21));
+            shape.setSize(sf::Vector2f(4, 21));
         }
         else if (z >= -4)
         {
             shape.setFillColor(sf::Color(104.f, 97.f, 255.f, 250.f));
-            shape.setSize(sf::Vector2f(2, 23));
+            shape.setSize(sf::Vector2f(5, 23));
         }
         else if (z >= 0)
         {
             shape.setFillColor(sf::Color(104.f, 113.f, 255.f, 255.f));
-            shape.setSize(sf::Vector2f(2, 26));
+            shape.setSize(sf::Vector2f(6, 26));
         }
     }
 
