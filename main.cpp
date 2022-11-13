@@ -21,35 +21,35 @@ public:
         this->x = x;
         this->y = y;
         velX = 0.0f;
-        velY = rand() % 10 + 12;
+        velY = rand() % 10 + 11;
         if(z >= -19)
         {
-            shape.setFillColor(sf::Color(0.f, 42.f, 141.f, 205.f));
+            shape.setFillColor(sf::Color(100.f, 42.f, 141.f, 205.f));
             shape.setSize(sf::Vector2f(2, 10));
         }
         else if (z >= -16)
         {
-            shape.setFillColor(sf::Color(15.f, 81.f, 181.f, 215.f));
+            shape.setFillColor(sf::Color(115.f, 81.f, 181.f, 215.f));
             shape.setSize(sf::Vector2f(2, 13));
         }
         else if (z >= -12)
         {
-            shape.setFillColor(sf::Color(12.f, 81.f, 185.f, 235.f));
-            shape.setSize(sf::Vector2f(2, 17));
+            shape.setFillColor(sf::Color(112.f, 81.f, 185.f, 235.f));
+            shape.setSize(sf::Vector2f(2, 19));
         }
         else if (z >= -8)
         {
-            shape.setFillColor(sf::Color(12.f, 85.f, 203.f, 245.f));
-            shape.setSize(sf::Vector2f(2, 20));
+            shape.setFillColor(sf::Color(112.f, 85.f, 203.f, 245.f));
+            shape.setSize(sf::Vector2f(2, 21));
         }
         else if (z >= -4)
         {
-            shape.setFillColor(sf::Color(4.f, 97.f, 255.f, 250.f));
+            shape.setFillColor(sf::Color(104.f, 97.f, 255.f, 250.f));
             shape.setSize(sf::Vector2f(2, 23));
         }
         else if (z >= 0)
         {
-            shape.setFillColor(sf::Color(4.f, 113.f, 255.f, 255.f));
+            shape.setFillColor(sf::Color(104.f, 113.f, 255.f, 255.f));
             shape.setSize(sf::Vector2f(2, 26));
         }
     }
